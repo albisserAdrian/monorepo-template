@@ -67,7 +67,7 @@ monorepo/
 
 ## Packages
 
-### Utils (`packages/shared`)
+### Utils (`packages/utils`)
 
 - Common utilities and functions
 - Exported functions:
@@ -75,3 +75,10 @@ monorepo/
   - `formatResponse<T>(data: T, message: string)` - API response formatter
   - `generateId()` - Random ID generator
   - `constants` - Shared constants
+
+## TODO
+
+[] GitHub workflows for CI/CD
+[] Prisma for database interactions
+[] API Authentication and authorization middleware
+[] Worker job queue
