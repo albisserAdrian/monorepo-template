@@ -78,7 +78,7 @@ monorepo/
 
 ## TODO
 
-- [] GitHub workflows for CI/CD
-- [] Prisma for database interactions
-- [] API Authentication and authorization middleware
-- [] Worker job queue
+- [ ] GitHub workflows for CI/CD
+- [ ] Prisma for database interactions
+- [ ] API Authentication and authorization middleware
+- [ ] Worker job queue
