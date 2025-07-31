@@ -17,7 +17,9 @@
   "references": [
     { "path": "./apps/worker" },
     { "path": "./apps/api" },
-    { "path": "./packages/utils" }
+    { "path": "./packages/core" },
+    { "path": "./packages/database" },
+    { "path": "./packages/integrations" },
+    { "path": "./packages/services" }
   ]
 }
-

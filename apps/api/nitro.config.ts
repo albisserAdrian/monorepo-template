@@ -1,11 +1,14 @@
 export default defineNitroConfig({
-  preset: "node-server",
-  srcDir: "src",
-  compatibilityDate: "2025-07-18",
+  preset: 'node-server',
+  srcDir: 'src',
+  compatibilityDate: '2025-07-18',
   typescript: {
     strict: true,
   },
   alias: {
-    "@monorepo/utils": "../../packages/utils/src/index.ts",
+    '@monorepo/core': '../../packages/core/src/index.ts',
+    '@monorepo/database': '../../packages/database/src/index.ts',
+    '../generated/prisma/client':
+      '../../packages/database/generated/prisma/client.ts',
   },
 });

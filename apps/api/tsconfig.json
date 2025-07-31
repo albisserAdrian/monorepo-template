@@ -2,7 +2,8 @@
   "extends": "./.nitro/types/tsconfig.json",
   "compilerOptions": {
     "paths": {
-      "@monorepo/utils": ["../../packages/utils/src/index.ts"]
+      "@monorepo/core": ["../../packages/core/src/index.ts"],
+      "@monorepo/database": ["../../packages/database/src/index.ts"]
     }
   }
 }
